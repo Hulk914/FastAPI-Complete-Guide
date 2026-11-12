@@ -1,0 +1,5 @@
+# Keep source line endings consistent across Windows, macOS, and Linux.
+* text=auto eol=lf
+
+# PDF cross-reference offsets depend on exact bytes; never normalize their contents.
+*.pdf binary

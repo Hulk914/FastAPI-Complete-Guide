@@ -1,0 +1,8 @@
+# Include runtime packages and keep their versions aligned with the runtime lock.
+-c runtime.txt
+-r runtime.in
+httpx2>=2.16,<3
+pip-tools>=7.6,<8
+pytest>=9.2,<10
+pytest-cov>=7.1,<8
+ruff>=0.17,<0.18

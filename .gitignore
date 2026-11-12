@@ -1,0 +1,33 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Databases contain local accounts and password hashes.
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+data/*
+!data/.gitkeep
+
+# Python and generated tooling artifacts
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage*
+coverage.xml
+htmlcov/
+build/
+dist/
+artifacts/
+.DS_Store

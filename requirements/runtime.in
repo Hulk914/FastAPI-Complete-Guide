@@ -1,0 +1,11 @@
+# Direct runtime dependencies. runtime.txt pins the resolved dependency graph.
+alembic>=1.20,<2
+email-validator>=2.3,<3
+fastapi>=0.162,<0.163
+pwdlib[argon2]>=0.3.1,<0.4
+PyJWT>=2.15,<3
+pydantic>=2.14,<3
+pydantic-settings>=2.16,<3
+python-multipart>=0.0.33,<0.1
+SQLAlchemy>=2.1,<2.2
+uvicorn>=0.54,<0.55
